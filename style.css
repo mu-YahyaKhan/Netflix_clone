@@ -1,0 +1,372 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/static/Roboto-Black.ttf);
+}
+body {
+  margin: 0px;
+  background-color: black;
+  height: 465vh;
+}
+.logo {
+  width: 450px;
+}
+.two {
+  position: absolute;
+  top: 0px;
+  margin-top: -185px;
+}
+.sign {
+  position: absolute;
+  right: 150px;
+  top: 30px;
+  width: 78px;
+  height: 33px;
+  color: white;
+  background-color: rgb(240, 11, 11);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.sign:hover {
+  background-color: rgb(202, 10, 10);
+  cursor: pointer;
+}
+.white {
+  color: white;
+  text-decoration: none;
+}
+.background {
+  width: 100%;
+  outline: 650px solid rgba(0, 0, 0, 0.5);
+  outline-offset: -650px;
+}
+.heading1,
+.heading2 {
+  color: white;
+  font-size: 60px;
+  font-family: roboto;
+}
+.para1 {
+  color: white;
+  font-family: roboto;
+}
+.para2 {
+  color: white;
+}
+.third {
+  position: absolute;
+  top: 170px;
+  left: 403px;
+}
+.heading2 {
+  margin-top: -45px;
+}
+.heading1 {
+  margin-left: 24px;
+}
+.para1 {
+  font-size: 21px;
+  margin-top: -27px;
+  margin-left: 120px;
+}
+.para2 {
+  font-size: 17px;
+  margin-left: 20px;
+}
+.email {
+  height: 50px;
+  width: 350px;
+  background-color: rgb(41, 40, 40);
+  border: none;
+  border-radius: 2px;
+  text-indent: 15px;
+  font-size: 17px;
+  color: white;
+}
+.email2 {
+  height: 50px;
+  width: 800px;
+  background-color: rgb(41, 40, 40);
+  border: none;
+  border-radius: 5px;
+  text-indent: 15px;
+  font-size: 17px;
+  color: white;
+  margin-left: -150px;
+}
+.get {
+  height: 50px;
+  width: 180px;
+  background-color: rgb(240, 11, 11);
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 3px;
+}
+.started {
+  height: 50px;
+  width: 180px;
+  background-color: rgb(240, 11, 11);
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 3px;
+  display: block;
+  margin-top: 20px;
+  margin-left: 160px;
+}
+.eight {
+  margin-top: 80px;
+  margin-left: 425px;
+}
+.para7 {
+  color: white;
+  margin-left: 33px;
+}
+.email::placeholder {
+  color: rgb(180, 175, 175);
+}
+.get:hover {
+  background-color: rgb(202, 10, 10);
+  cursor: pointer;
+}
+.started:hover {
+  background-color: rgb(202, 10, 10);
+  cursor: pointer;
+}
+.heading3 {
+  color: white;
+  margin-left: 150px;
+  font-family: roboto;
+}
+.select1 {
+  margin-left: 150px;
+  height: 37px;
+  width: 105px;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+  text-indent: 8px;
+  cursor: pointer;
+}
+.select2 {
+  margin-left: 20px;
+  height: 37px;
+  width: 105px;
+  background-color: rgb(41, 40, 40);
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+  text-indent: 8px;
+  cursor: pointer;
+}
+.five {
+  width: 1000px;
+  display: flex;
+  gap: 50px;
+  overflow: hidden;
+  overflow-x: visible;
+  scrollbar-width: none;
+  margin-top: 40px;
+  margin-left: 160px;
+}
+.moviePic {
+  width: 190px;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.moviePic:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.heading4 {
+  color: white;
+  font-family: roboto;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+.card1 {
+  width: 215px;
+  height: 285px;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  background-color: rgba(65, 31, 119, 0.4);
+  padding: 20px;
+}
+.heading5 {
+  font-size: 22px;
+}
+.para5 {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 21px;
+}
+.six {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.heading6 {
+  font-size: 22px;
+  color: white;
+  font-family: roboto;
+  margin-left: 145px;
+  margin-top: 60px;
+}
+.card2 {
+  background-color: rgb(65, 63, 63);
+  width: 1070px;
+  margin-left: 145px;
+  height: 40px;
+  padding: 20px;
+  position: relative;
+}
+.para6 {
+  position: absolute;
+  top: 3px;
+  font-size: 25px;
+  color: white;
+}
+.plus{
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 1030px;
+  color: white;
+}
+.card2:hover {
+  background-color: rgb(78, 76, 76);
+  cursor: pointer;
+}
+.card3 {
+  background-color: rgb(65, 63, 63);
+  width: 1070px;
+  margin-left: 145px;
+  height: 40px;
+  padding: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+.card3:hover {
+  background-color: rgb(78, 76, 76);
+  cursor: pointer;
+}
+.card4 {
+  background-color: rgb(65, 63, 63);
+  width: 1070px;
+  margin-left: 145px;
+  height: 40px;
+  padding: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+.card4:hover {
+  background-color: rgb(78, 76, 76);
+  cursor: pointer;
+}
+.card5 {
+  background-color: rgb(65, 63, 63);
+  width: 1070px;
+  margin-left: 145px;
+  height: 40px;
+  padding: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+.card5:hover {
+  background-color: rgb(78, 76, 76);
+  cursor: pointer;
+}
+.card6 {
+  background-color: rgb(65, 63, 63);
+  width: 1070px;
+  margin-left: 145px;
+  height: 40px;
+  padding: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+.card6:hover {
+  background-color: rgb(78, 76, 76);
+  cursor: pointer;
+}
+.card7 {
+  background-color: rgb(65, 63, 63);
+  width: 1070px;
+  margin-left: 145px;
+  height: 40px;
+  padding: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+.card7:hover {
+  background-color: rgb(78, 76, 76);
+  cursor: pointer;
+}
+.Contact {
+  color: white;
+  margin-left: 150px;
+}
+.Question {
+  margin-top: 40px;
+}
+.link1 {
+  display: flex;
+  gap: 190px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.faq {
+  color: rgb(180, 175, 175);
+}
+.faq:active {
+  color: red;
+}
+.link2 {
+  display: flex;
+  gap: 105px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.link3 {
+  display: flex;
+  gap: 172px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.link4 {
+  display: flex;
+  gap: 153px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.left1 {
+  margin-left: 135px;
+}
+.left2 {
+  margin-left: 43px;
+}
+.left3 {
+  margin-left: -27px;
+}
+.left4 {
+  margin-left: -74px;
+}
+.left5 {
+  margin-left: 27px;
+}
+.Language {
+  margin-left: 150px;
+  margin-top: 60px;
+  padding: 5px;
+  width: 100px;
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+.last {
+  color: rgb(180, 175, 175);
+  margin-left: 150px;
+  margin-top: 40px;
+}

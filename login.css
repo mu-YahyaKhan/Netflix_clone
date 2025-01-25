@@ -1,0 +1,181 @@
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/static/Roboto-Black.ttf);
+}
+body {
+  margin: 0px;
+  background-color: black;
+  height: 190vh;
+}
+.logo {
+  width: 450px;
+}
+.two {
+  position: absolute;
+  top: 0px;
+  margin-top: -185px;
+}
+.background {
+  width: 100%;
+  /* outline: 650px solid rgba(0, 0, 0, 0.5);
+    outline-offset: -650px; */
+}
+.heading1 {
+  color: white;
+  font-family: Roboto;
+}
+.email,
+.password {
+  display: block;
+}
+span {
+  color: white;
+  margin-left: 6px;
+}
+.check {
+  margin-left: 22px;
+}
+.new {
+  color: white;
+  margin-left: 22px;
+}
+.page {
+  color: white;
+  margin-left: 22px;
+}
+a {
+  color: white;
+}
+.or {
+  color: white;
+  margin-left: 170px;
+}
+.email {
+  width: 270px;
+  height: 50px;
+  background-color: rgb(41, 40, 40);
+  border: none;
+  border-radius: 5px;
+  text-indent: 15px;
+  font-size: 17px;
+  color: white;
+  margin-left: 50px;
+}
+.password {
+  width: 270px;
+  height: 50px;
+  background-color: rgb(41, 40, 40);
+  border: none;
+  border-radius: 5px;
+  text-indent: 15px;
+  font-size: 17px;
+  color: white;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+.sign {
+  width: 273px;
+  height: 40px;
+  color: white;
+  background-color: rgb(240, 11, 11);
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.sign:hover {
+  background-color: rgb(202, 10, 10);
+  cursor: pointer;
+}
+.use {
+  width: 273px;
+  height: 40px;
+  color: white;
+  background-color: rgb(41, 40, 40);
+  border: none;
+  border-radius: 4px;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: -8px;
+}
+.use:hover {
+  background-color: rgb(78, 76, 76);
+  cursor: pointer;
+}
+.forget {
+  color: white;
+  margin-left: 137px;
+}
+.third {
+  width: 380px;
+  position: absolute;
+  top: 120px;
+  left: 440px;
+  background-color: rgba(0, 0, 0, 0.808);
+  border-radius: 5px;
+  padding: 50px;
+}
+.Question {
+  margin-top: 40px;
+  margin-left: 150px;
+}
+.link1 {
+  display: flex;
+  gap: 190px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.faq {
+  color: rgb(180, 175, 175);
+}
+.faq:active {
+  color: red;
+}
+.link2 {
+  display: flex;
+  gap: 105px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.link3 {
+  display: flex;
+  gap: 172px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.link4 {
+  display: flex;
+  gap: 153px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+.left1 {
+  margin-left: 135px;
+}
+.left2 {
+  margin-left: 43px;
+}
+.left3 {
+  margin-left: -27px;
+}
+.left4 {
+  margin-left: -74px;
+}
+.left5 {
+  margin-left: 27px;
+}
+.Language {
+  margin-left: 150px;
+  margin-top: 60px;
+  padding: 5px;
+  width: 100px;
+  background-color: rgb(41, 40, 40);
+  color: white;
+}
+.last {
+  color: rgb(180, 175, 175);
+  margin-left: 150px;
+  margin-top: 40px;
+}
